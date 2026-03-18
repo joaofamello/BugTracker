@@ -1,1 +1,10 @@
+# Ficheiros de IDE
 /.idea
+backend.sln.DotSettings.user
+
+# Build do .NET
+/BugTracker/bin/
+/BugTracker/obj/
+
+# Base de dados local
+/BugTracker/bugtracker.db
