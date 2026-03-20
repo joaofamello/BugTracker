@@ -59,7 +59,7 @@ public class ProjetosController : ControllerBase
         }
         catch (DbUpdateConcurrencyException)
         {
-            if (!_context.Projetos.Any(e => e.Id == id))
+            if (!_context.Projetos.Any(p => p.Id == id))
             {
                 return NotFound();
             }
